@@ -61,3 +61,14 @@ body {
     border-radius: 50%;
 }
 /* Carousel Part */
+
+/* Form Part */
+.form {
+	background-color: #E9ECEF;
+}
+/* Form Part */
+
+/* Footer Part */
+.footer-pagination {
+	margin-top: 100px;
+}
