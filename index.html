@@ -87,8 +87,49 @@
 					<h1 class="text-center mt-3 display-4">Wolcome, Dear Visitors</h1>
 					<p class="lead text-center">Here you will get our all kinds of Services and support</p>
 					<div class="alert alert-success">You must need to Login first. If you are new in this side then please <span class="badge badge-pill badge-success">SingUp.</span></div>
-					<a href="login-form.html" class="btn btn-primary btn-lg" role="button">LogIn</a>
-					<a href="form&input.html" class="btn btn-primary btn-lg" role="button">SingUp</a>
+					<!-- <a href="login-form.html" class="btn btn-primary btn-lg" role="button">LogIn</a> -->
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#LogInForm">
+						LogIn
+					</button>
+					<a href="form&input.html" class="btn btn-primary" role="button">SingUp</a>
+					<!-- Modal -->
+					<div class="modal fade" id="LogInForm" tabindex="-1" role="dialog" aria-labelledby="Form" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="Form">LogIn and Enjoy Our Services</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body text-left">
+									<form class="w-100 m-auto">
+										<div class="form-group">
+											<label for="email">Email Address</label>
+											<input type="email" id="email" name="Email" placeholder="Enter your valid Email ID" class="form-control">
+										</div>
+
+										<div class="form-group">
+											<label for="password">Password</label>
+											<input type="password" name="Password" id="password" placeholder="Password" class="form-control">
+										</div>
+
+										<div class="form-group form-check">
+											<input type="checkbox" class="form-check-input" id="checkbox">
+											<label class="form-check-label" for="checkbox">Check me out</label>
+										</div>
+										<a href="thanks-msg.html"  role="button" class="btn btn-primary">Submit</a>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 			
