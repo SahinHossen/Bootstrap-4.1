@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS CDN Link -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Bootstrap CSS -->
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<title>Progress & Scrollspy</title>
+</head>
+<body>
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Progress & Scrollspy</li>
+			</ol>
+		</nav>
+
+		<section>
+
+			<!-- Progress Example -->
+			<h1 class="bg-success text-white text-center my-3">Progress Bar Example</h1>
+
+			<div class="progress my-1">
+				<div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+			</div>
+
+			<!-- Progress Example -->
+
+			<!-- Multiple bars Example -->
+
+			<h1 class="bg-success text-white text-center my-3">Multiple Progress Bar Example</h1>
+
+			<div class="progress my-1">
+				<div class="progress-bar bg-warning w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+				<div class="progress-bar bg-success w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+				<div class="progress-bar bg-danger w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+			</div>
+
+			<!-- Multiple bars Example -->
+
+			<!-- Stripes Progress Example -->
+
+			<h1 class="bg-success text-white text-center my-3">Stripes Progress Bar Example</h1>
+
+			<div class="progress my-1">
+				<div class="progress-bar progress-bar-striped bg-success w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar progress-bar-striped bg-primary w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar progress-bar-striped bg-warning w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar progress-bar-striped bg-danger w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+			</div>
+
+			<!-- Stripes Progress Example -->
+
+			<!-- Animated Stripes Progress Example -->
+
+			<h1 class="bg-success text-white text-center my-3">Animated Stripes Progress Bar Example</h1>
+
+			<div class="progress my-1">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+			</div>
+
+			<div class="progress my-1">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+			</div>
+
+			<!-- Animated Stripes Progress Example -->
+			
+		</section>
+
+		<section>
+			<!-- Example in navbar Example -->
+
+			<nav id="navbar-example2" class="navbar navbar-light bg-light">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link" href="#fat">@fat</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#mdo">@mdo</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#one">one</a>
+							<a class="dropdown-item" href="#two">two</a>
+							<div role="separator" class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#three">three</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+				<h4 id="fat">@fat</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt, cupiditate voluptates sequi fugit magni quibusdam ad iste quas, dolore libero. Ut voluptates dignissimos dolor, iste officiis adipisci voluptas quia placeat, non atque. Sequi saepe qui ipsam possimus, deserunt, cum maxime repellat cupiditate sit exercitationem accusantium. At id possimus consequatur.</p>
+				<h4 id="mdo">@mdo</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt, cupiditate voluptates sequi fugit magni quibusdam ad iste quas, dolore libero. Ut voluptates dignissimos dolor, iste officiis adipisci voluptas quia placeat, non atque. Sequi saepe qui ipsam possimus, deserunt, cum maxime repellat cupiditate sit exercitationem accusantium. At id possimus consequatur.</p>
+				<h4 id="one">one</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt, cupiditate voluptates sequi fugit magni quibusdam ad iste quas, dolore libero. Ut voluptates dignissimos dolor, iste officiis adipisci voluptas quia placeat, non atque. Sequi saepe qui ipsam possimus, deserunt, cum maxime repellat cupiditate sit exercitationem accusantium. At id possimus consequatur.</p>
+				<h4 id="two">two</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt, cupiditate voluptates sequi fugit magni quibusdam ad iste quas, dolore libero. Ut voluptates dignissimos dolor, iste officiis adipisci voluptas quia placeat, non atque. Sequi saepe qui ipsam possimus, deserunt, cum maxime repellat cupiditate sit exercitationem accusantium. At id possimus consequatur.</p>
+				<h4 id="three">three</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt, cupiditate voluptates sequi fugit magni quibusdam ad iste quas, dolore libero. Ut voluptates dignissimos dolor, iste officiis adipisci voluptas quia placeat, non atque. Sequi saepe qui ipsam possimus, deserunt, cum maxime repellat cupiditate sit exercitationem accusantium. At id possimus consequatur.</p>
+			</div>
+			
+		</section>
+	</div>
+
+	<!-- Footer Part -->
+	<nav aria-label="Page navigation example">
+		<ul class="pagination justify-content-center mt-5">
+			<li class="page-item"><a class="page-link" href="form&input.html">Previous</a></li>
+			<li class="page-item"><a class="page-link" href="form&input.html">12</a></li>
+			<li class="page-item"><a class="page-link" href="popovers&tooltips.html">13</a></li>
+			<li class="page-item active"><a class="page-link" href="progress&scrollspy.html">14</a></li>
+			<li class="page-item disabled"><a class="page-link" href="index.html" tabindex="-1">Next</a></li>
+		</ul>
+	</nav>
+	<!-- Footer Part -->
+
+	<!-- Optional JavaScript -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+
+	<!-- Optional JavaScript CDN Link -->
+
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+
+	<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+</body>
+</html>
